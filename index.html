@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luissa +18 • Calls e GFE do Fogo 🔥</title>
+    <meta name="description" content="Luissa +18 • Videochamadas ao vivo, namoradinha virtual (GFE), packs quentes e putaria sem limite. Entra no meu Discord: tznlx_">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700;900&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --red: #ff0066;
+            --darkred: #cc0055;
+            --black: #000;
+            --gray: #111;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: var(--black);
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+            cursor: none;
+        }
+        .cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background: var(--red);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            box-shadow: 0 0 20px var(--red);
+            transform: translate(-50%, -50%);
+            transition: all 0.1s;
+        }
+        .cursor::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: #fff;
+            border-radius: 50%;
+            top: 6px;
+            left: 6px;
+        }
+
+        /* Header com fundo nevado do Pinterest */
+        header {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('https://i.pinimg.com/originals/9c/1a/3e/9c1a3e0b0b0b0b0b0b0b0b0b0b0b0b0b.jpg') center/cover no-repeat fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        .header-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at center, rgba(255,0,102,0.4) 0%, transparent 70%);
+            z-index: 1;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 130px;
+            color: var(--red);
+            text-shadow: 0 0 40px var(--red);
+            animation: glow 2s infinite alternate;
+            position: relative;
+            z-index: 3;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 20px var(--red); }
+            to { text-shadow: 0 0 60px var(--red), 0 0 80px var(--red); }
+        }
+        .subtitle {
+            font-size: 40px;
+            margin: 20px 0;
+            color: #ff3366;
+            position: relative;
+            z-index: 3;
+        }
+        .online-count {
+            background: rgba(255,0,102,0.2);
+            padding: 15px 40px;
+            border: 2px solid var(--red);
+            border-radius: 50px;
+            font-size: 24px;
+            margin-top: 30px;
+            animation: pulse 3s infinite;
+            position: relative;
+            z-index: 3;
+        }
+        @keyframes pulse {
+            0%,100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Navegação fixa */
+        nav {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 999;
+            background: rgba(0,0,0,0.7);
+            padding: 15px 30px;
+            border-radius: 50px;
+            border: 2px solid var(--red);
+            backdrop-filter: blur(10px);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover { color: var(--red); }
+
+        /* Seções */
+        section {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+
+        .warning {
+            background: linear-gradient(45deg, #ff0066, #cc0055);
+            padding: 25px;
+            border-radius: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 0 0 20px #000;
+            margin: 40px auto;
+            max-width: 900px;
+            animation: warning 4s infinite;
+        }
+        @keyframes warning { 0%,100% { opacity: 0.9; } 50% { opacity: 1; } }
+
+        /* Tabela de Preços */
+        .price-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin: 80px 0;
+        }
+        .price-card {
+            background: rgba(255,0,102,0.1);
+            border: 3px solid var(--red);
+            border-radius: 20px;
+            padding: 40px 20px;
+            transition: all 0.5s;
+            position: relative;
+            overflow: hidden;
+        }
+        .price-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,0,102,0.3) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        .price-card:hover {
+            transform: translateY(-20px) scale(1.05);
+            box-shadow: 0 0 60px rgba(255,0,102,0.8);
+            border-color: #fff;
+        }
+        .price-card h3 {
+            font-size: 36px;
+            color: var(--red);
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 60px;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 0 0 20px var(--red);
+        }
+        .price small { font-size: 20px; }
+        .features {
+            margin: 30px 0;
+            text-align: left;
+            font-size: 18px;
+        }
+        .features li {
+            margin: 15px 0;
+            padding-left: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--red);
+            color: #000;
+            padding: 20px 50px;
+            font-size: 26px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 30px 10px;
+            box-shadow: 0 0 40px rgba(255,0,102,0.8);
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn:hover {
+            background: #fff;
+            transform: scale(1.15);
+            box-shadow: 0 0 80px rgba(255,255,255,0.8);
+        }
+        .btn-discord {
+            background: #7289da;
+            color: #fff;
+        }
+        .btn-discord:hover {
+            background: #99aab5;
+        }
+
+        /* Galeria borrada */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 80px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+            filter: blur(8px) brightness(0.6);
+            transition: all 0.6s;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            filter: blur(0px) brightness(1);
+            transform: scale(1.05);
+        }
+
+        /* Partículas de fogo/coração */
+        #particles-js {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+        }
+
+        footer {
+            background: #111;
+            padding: 60px 20px;
+            text-align: center;
+            border-top: 4px solid var(--red);
+        }
+        .social a {
+            color: var(--red);
+            font-size: 40px;
+            margin: 0 20px;
+            transition: 0.3s;
+        }
+        .social a:hover { transform: scale(1.4); }
+
+        /* Animação de neve leve no header pra combinar com o fundo */
+        .snow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 2;
+        }
+        .snowflake {
+            position: absolute;
+            color: var(--red);
+            font-size: 20px;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            to {
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+    </style>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+</head>
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div id="particles-js"></div>
+
+    <nav>
+        <a href="#precos">Preços</a>
+        <a href="#galeria">Preview</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <header>
+        <div class="header-overlay"></div>
+        <div class="snow" id="snow"></div>
+        
+        <h1>LUISSA +18</h1>
+        <p class="subtitle">A sua namoradinha virtual mais safada do Brasil 🔥</p>
+        <div class="online-count">🔴 <span id="online-number">47</span> tarados online agora</div>
+    </header>
+
+    <section id="aviso">
+        <div class="container">
+            <div class="warning">⚠️ CONTEÚDO +18 • PROIBIDO PARA MENORES • MUITO EXPLÍCITO ⚠️</div>
+        </div>
+    </section>
+
+    <section id="precos">
+        <div class="container">
+            <h2 style="font-size:60px; color:var(--red); margin-bottom:60px;">TABELA DE PREÇOS - CALLS & GFE</h2>
+            <div class="price-table">
+                <div class="price-card">
+                    <h3>🔥 CALL RÁPIDA</h3>
+                    <div class="price">R$80<small>/15min</small></div>
+                    <ul class="features">
+                        <li>✅ Videochamada ao vivo</li>
+                        <li>✅ Nudes ao vivo</li>
+                        <li>✅ Putaria sem censura</li>
+                        <li>✅ Voz gemendo seu nome</li>
+                    </ul>
+                    <a href="https://discord.gg/tznlx_" class="btn btn-discord">CHAMAR AGORA</a>
+                </div>
+
+                <div class="price-card" style="border:5px solid #fff; transform:scale(1.1);">
+                    <h3>❤️ GFE COMPLETA</h3>
+                    <div class="price">R$250<small>/dia</small></div>
+                    <ul class="features">
+                        <li>✅ Namoradinha 24h</li>
+                        <li>✅ Bom dia, boa noite, nudes o dia todo</li>
+                        <li>✅ Chamadas ilimitadas</li>
+                        <li>✅ Vídeos personalizados</li>
+                        <li>✅ Sexting o dia inteiro</li>
+                        <li>✅ Prioridade total</li>
+                    </ul>
+                    <a href="https://discord.gg/tznlx_" class="btn btn-discord">QUERO SER SEU NAMORADO</a>
+                </div>
+
+                <div class="price-card">
+                    <h3>💦 CALL LONGA</h3>
+                    <div class="price">R$400<small>/1 hora</small></div>
+                    <ul class="features">
+                        <li>✅ 60 minutos de putaria</li>
+                        <li>✅ Brinquedos, óleo, fantasias</li>
+                        <li>✅ Gozada ao vivo</li>
+                        <li>✅ Tudo que você pedir</li>
+                    </ul>
+                    <a href="https://discord.gg/tznlx_" class="btn btn-discord">1 HORA COMIGO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <h2 style="font-size:60px; color:var(--red); margin-bottom:60px;">PRÉVIA DO QUE TE ESPERA 😈</h2>
+            <div class="gallery">
+                <img src="https://i.imgur.com/Xxample1.jpg" alt="Luissa +18">
+                <img src="https://i.imgur.com/Xxample2.jpg" alt="Luissa +18">
+                <img src="https://i.imgur.com/Xxample3.jpg" alt="Luissa +18">
+                <img src="https://i.imgur.com/Xxample4.jpg" alt="Luissa +18">
+                <img src="https://i.imgur.com/Xxample5.jpg" alt="Luissa +18">
+                <img src="https://i.imgur.com/Xxample6.jpg" alt="Luissa +18">
+            </div>
+            <p style="font-size:24px; margin-top:50px;">O resto só quem pagar vê 🔥</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2 style="font-size:70px; color:var(--red);">ME CHAMA AGORA</h2>
+            <p style="font-size:30px; margin:40px 0;">Discord: <strong>tznlx_</strong></p>
+            <a href="https://discord.com/users/tznlx_" class="btn btn-discord" style="font-size:40px; padding:30px 80px;">
+                <i class="fab fa-discord"></i> ADICIONAR tznlx_
+            </a>
+            <p style="margin-top:50px; font-size:20px;">Pagamento só Pix • Sem amostra grátis • Sem desconto • Sem enrolação</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Luissa +18 • Todos os direitos reservados • Feito pra te deixar duro 🔥</p>
+            <div class="social">
+                <a href="https://discord.gg/tznlx_"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Particles.js para corações pegando fogo -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 80 },
+                "color": { "value": ["#ff0066", "#ff3366", "#cc0055"] },
+                "shape": { "type": ["circle", "heart"], "stroke": { "width": 2, "color": "#ff0066" } },
+                "opacity": { "value": 0.8, "random": true },
+                "size": { "value": 8, "random": true },
+                "line_linked": { "enable": false },
+                "move": {
+                    "enable": true,
+                    "speed": 4,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out"
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": { "enable": true, "mode": "repulse" },
+                    "onclick": { "enable": true, "mode": "push" },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+
+        // Cursor personalizado
+        const cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+
+        // Contador fake de online
+        setInterval(() => {
+            const count = document.getElementById('online-number');
+            const current = parseInt(count.textContent);
+            const newCount = current + Math.floor(Math.random() * 5) - 2;
+            if (newCount > 30 && newCount < 70) {
+                count.textContent = newCount;
+            }
+        }, 8000);
+
+        // Animação de neve vermelha no header
+        const snowContainer = document.getElementById('snow');
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+            snowflake.innerHTML = '❄️';
+            snowflake.style.left = Math.random() * 100 + 'vw';
+            snowflake.style.animationDuration = (Math.random() * 5 + 5) + 's';
+            snowflake.style.opacity = Math.random();
+            snowContainer.appendChild(snowflake);
+            setTimeout(() => snowflake.remove(), 10000);
+        }
+        setInterval(createSnowflake, 300);
+    </script>
+</body>
+</html>
